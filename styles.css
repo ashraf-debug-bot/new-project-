@@ -1,0 +1,273 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: #fff0ad;
+  padding:0 50px;
+}
+.img-top{
+  width:20%;
+}
+.drop-down-container{
+  border: none;
+gap:0px;
+cursor: pointer;
+
+margin:25px;
+
+}
+
+.header{
+    background-color: #fff0ad;
+}
+.nav-item{
+    font-weight: 400;
+      margin:20px;
+
+}
+.content{
+  padding:0 100px;
+}
+.home{
+  width:100%;
+}
+.image-top{
+    width:100%;
+    height: 100%;
+}
+.img-content{
+  text-align: center;
+  padding:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+.cards{
+  padding: 3% 5% 7%;
+}
+.card-body:hover{
+  background:rgba(206, 206, 206, 0.98);
+
+}
+.catogery-section{
+  font-size: 2rem;
+}
+.second-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  padding:3% ;
+  letter-spacing: 2px;
+
+  text-align: center;
+  align-items: center;
+}
+.card-items{
+color:#444444;
+font-size: 20px;
+
+}
+.card-link{
+  padding:0 20px;
+  color:#444444;
+}
+.card-link:hover{
+  color:#000000;
+}
+.underline{
+  border-top:10px;
+}
+.add-to{
+  background: transparent;
+  color:white;
+  padding:10px;
+}
+.add-to:hover{
+  background-color: #fd5b4e;
+}
+.eye{
+margin-left: 100px;
+  text-align: center;
+}
+.card-card{
+    padding: 3% 5% 7%;
+}
+.card-text{
+  text-align: center;
+}
+.rupees{
+  text-align: center;
+  color:	#008AD8;
+  padding: 10px 0;
+}
+#second-card-container{
+    padding: 3% 5% 7%;
+
+}
+#third-card-container{
+    padding: 3% 5% 7%;
+}
+.tshirt{
+  width:100%;
+  height:380px;
+  object-fit;
+
+}
+.floting-btn{
+  padding:10px 20px;
+  font-size: 2rem;
+  color:#444444;
+  justify-content: space-between;
+  text-align: center;
+
+}
+.arrow{
+    text-decoration: none;
+}
+.floting-btn:hover{
+  color:black;
+}
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color:#ffffff;
+  color: black;
+  transform: rotateY(180deg);
+}
+#below-card-container{
+      padding: 3% 5% 7%;
+      text-align: center;
+}
+.below-card{
+  padding: 5% 5% 7%;
+}
+.catogery-section{
+  display: flex;
+  justify-content: space-between;
+}
+.card-img3{
+  margin:50px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.image-card{
+  padding:150px 0px;
+
+
+}
+.controls-top{
+  border-radius: 500rem;
+  background-color: #fff0ad;
+  width:10%;
+  text-align: center;
+
+}
+#footer-container{
+  padding: 3%  5%;
+  text-align: center;
+  background-color: #333333;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-bottom{
+  background-color: white;
+padding:70px 0;
+
+}
+.footer-col{
+  width:25%;
+  padding:0 25px;
+  line-height: 2;
+    text-decoration: none;
+
+
+}
+
+#contact-container{
+  padding:3% 5% 7%;
+    text-decoration: none;
+}
+.line{
+  border:0.8px solid ;
+}
+.social-media{
+  line-height: 2;
+}
+a{
+    color: #444444;
+
+}
+ul{
+  text-decoration: none;
+  outline: none;
+
+}
+a:hover{
+  color:black;
+}
+.bottom{
+  background-color: #333333;
+  padding:3% 7%;
+  text-align: center;
+  color:white;
+}
+.navbar-toggler{
+  font-size: 2rem;
+  border: none;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
